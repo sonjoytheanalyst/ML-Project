@@ -6,7 +6,7 @@ __version__ = "0.0.0"
 
 REPO_NAME = "ML-Project"
 AUTHOR_USER_NAME = "sonjoytheanalyst"
-SRC_REPO = "winequality"
+SRC_REPO = "src.winequality"
 AUTHOR_EMAIL = "sonjoytheanalyst@gmail.com"
 
 
