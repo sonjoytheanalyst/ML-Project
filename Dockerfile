@@ -1,5 +1,5 @@
 # Use a lightweight Python base image
-FROM python:3.9-slim
+FROM python:3.13.0-slim
 
 # Update package index and install system dependencies
 RUN apt-get update -y && apt-get install -y --no-install-recommends \
