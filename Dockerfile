@@ -1,13 +1,13 @@
-# Use an appropriate Python base image
+# Use a lightweight Python base image
 FROM python:3.9-slim
 
-# Set working directory
+# Set the working directory
 WORKDIR /app
 
-# Copy requirements first to leverage Docker cache
+# Copy only requirements.txt first (to leverage Docker's layer caching)
 COPY requirements.txt .
 
-# Install system-level dependencies
+# Install required system-level dependencies
 RUN apt-get update && apt-get install -y \
     build-essential \
     libssl-dev \
@@ -17,12 +17,12 @@ RUN apt-get update && apt-get install -y \
     zlib1g-dev \
     && apt-get clean
 
-# Upgrade pip and install dependencies
+# Upgrade pip and install Python dependencies
 RUN python -m pip install --upgrade pip
-RUN pip install -r requirements.txt
+RUN pip install --no-cache-dir -r requirements.txt
 
 # Copy the rest of the application code
 COPY . .
 
-# Set the default command
+# Set the command to run the application
 CMD ["python3", "app.py"]
