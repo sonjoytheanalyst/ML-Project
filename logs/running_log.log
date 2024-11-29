@@ -451,3 +451,37 @@ x==========x]
  * Running on http://127.0.0.1:8080
  * Running on http://192.168.0.16:8080]
 [2024-11-25 22:15:58,371: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2024-11-25 22:34:43,316: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.0.16:8080]
+[2024-11-25 22:34:43,318: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2024-11-25 22:34:48,690: INFO: _internal: 127.0.0.1 - - [25/Nov/2024 22:34:48] "GET / HTTP/1.1" 200 -]
+[2024-11-25 22:34:48,830: INFO: _internal: 127.0.0.1 - - [25/Nov/2024 22:34:48] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -]
+[2024-11-25 22:34:48,861: INFO: _internal: 127.0.0.1 - - [25/Nov/2024 22:34:48] "[33mGET /static/assets/img/wine.jpg HTTP/1.1[0m" 404 -]
+[2024-11-25 22:34:48,876: INFO: _internal: 127.0.0.1 - - [25/Nov/2024 22:34:48] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -]
+[2024-11-25 22:34:48,877: INFO: _internal: 127.0.0.1 - - [25/Nov/2024 22:34:48] "[36mGET /static/css2/style.css HTTP/1.1[0m" 304 -]
+[2024-11-25 22:34:48,894: INFO: _internal: 127.0.0.1 - - [25/Nov/2024 22:34:48] "[36mGET /static/css2/nunito-font.css HTTP/1.1[0m" 304 -]
+[2024-11-25 22:34:48,930: INFO: _internal: 127.0.0.1 - - [25/Nov/2024 22:34:48] "[36mGET /static/assets/img/form-v9.jpg HTTP/1.1[0m" 304 -]
+[2024-11-25 22:34:48,963: INFO: _internal: 127.0.0.1 - - [25/Nov/2024 22:34:48] "[33mGET /static/fonts/Nunito/Nunito-Bold.ttf HTTP/1.1[0m" 404 -]
+[2024-11-25 22:34:55,974: INFO: _internal: 127.0.0.1 - - [25/Nov/2024 22:34:55] "POST /predict HTTP/1.1" 200 -]
+[2024-11-25 22:34:56,009: INFO: _internal: 127.0.0.1 - - [25/Nov/2024 22:34:56] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -]
+[2024-11-25 22:34:56,024: INFO: _internal: 127.0.0.1 - - [25/Nov/2024 22:34:56] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -]
+[2024-11-25 22:34:56,074: INFO: _internal: 127.0.0.1 - - [25/Nov/2024 22:34:56] "[33mGET /static/assets/img/wine.gif HTTP/1.1[0m" 404 -]
+[2024-11-29 09:00:29,333: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://172.16.11.169:8080]
+[2024-11-29 09:00:29,334: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2024-11-29 09:00:36,774: INFO: _internal: 127.0.0.1 - - [29/Nov/2024 09:00:36] "GET / HTTP/1.1" 200 -]
+[2024-11-29 09:00:37,108: INFO: _internal: 127.0.0.1 - - [29/Nov/2024 09:00:37] "[36mGET /static/css2/nunito-font.css HTTP/1.1[0m" 304 -]
+[2024-11-29 09:00:37,194: INFO: _internal: 127.0.0.1 - - [29/Nov/2024 09:00:37] "[36mGET /static/css2/style.css HTTP/1.1[0m" 304 -]
+[2024-11-29 09:00:37,202: INFO: _internal: 127.0.0.1 - - [29/Nov/2024 09:00:37] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -]
+[2024-11-29 09:00:37,258: INFO: _internal: 127.0.0.1 - - [29/Nov/2024 09:00:37] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -]
+[2024-11-29 09:00:37,425: INFO: _internal: 127.0.0.1 - - [29/Nov/2024 09:00:37] "[33mGET /static/assets/img/wine.jpg HTTP/1.1[0m" 404 -]
+[2024-11-29 09:00:37,529: INFO: _internal: 127.0.0.1 - - [29/Nov/2024 09:00:37] "[33mGET /static/fonts/Nunito/Nunito-Bold.ttf HTTP/1.1[0m" 404 -]
+[2024-11-29 09:00:37,543: INFO: _internal: 127.0.0.1 - - [29/Nov/2024 09:00:37] "[36mGET /static/assets/img/form-v9.jpg HTTP/1.1[0m" 304 -]
+[2024-11-29 09:01:11,892: INFO: _internal: 127.0.0.1 - - [29/Nov/2024 09:01:11] "POST /predict HTTP/1.1" 200 -]
+[2024-11-29 09:01:11,939: INFO: _internal: 127.0.0.1 - - [29/Nov/2024 09:01:11] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -]
+[2024-11-29 09:01:11,955: INFO: _internal: 127.0.0.1 - - [29/Nov/2024 09:01:11] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -]
+[2024-11-29 09:01:12,003: INFO: _internal: 127.0.0.1 - - [29/Nov/2024 09:01:12] "[33mGET /static/assets/img/wine.gif HTTP/1.1[0m" 404 -]
